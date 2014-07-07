@@ -10,6 +10,7 @@ def child():
    print 'A new child ',  os.getpid( )
    os._exit(0)  
 
+#test
 def parent():
    while True:
       newpid = os.fork()
